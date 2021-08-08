@@ -1,0 +1,683 @@
+
+/* Max-width 1500px */
+@media (max-width: 1500px) {
+    .hero-paragraph {
+        font-size: 1.5rem;
+        color: #bbb;
+        padding: 0 100px;
+    }
+
+    .feature-paragraph  {
+        font-size: 1.5rem;
+        padding: 40px 90px;
+        color: #888;
+    }
+
+    .fa-google-play {
+        position: absolute;
+        left: 31.5rem;
+        top: 87rem;
+    }
+    
+    .fa-apple   {
+        position: absolute;
+        left: 46.5rem;
+        top: 86.9rem;
+    }
+
+    #service    {
+        background-color: rgb(252, 252, 252);
+        padding: 8% 7%;
+    }
+
+    .bt-title   {
+        font-size: 3rem;
+    }
+
+    .bt-paragraph   {
+        font-size: 1.4rem;
+        font-weight: 500;
+        color: #777;
+    }
+
+    .bitcoin-img    {
+        width: 400px;
+        position: relative;
+        left: 200px;
+        top: -90px;
+    }
+
+    .giftcard-title {
+        font-size: 3rem;
+    }
+
+    .giftcard-paragraph {
+        color: #888;
+        font-size: 1.2rem;
+        padding: 0 250px;
+    }
+
+    .giftcard-btn   {
+        margin-top: 10px;
+        padding: 15px 40px;
+    }
+
+    .partner-title  {
+        color: #888;
+        margin-bottom: 10px;
+    }
+
+    .download-title {
+        padding: 30px 0;
+        font-size: 2rem;
+    }
+
+    .dl-icon-android    {
+        position: absolute;
+        left: 2rem;
+        top: 10rem;
+    }
+    
+    .dl-icon-ios    {
+        position: absolute;
+        left: 17rem;
+        top: 10rem;
+    }
+
+    .mock-phone {
+        width: 50%;
+        position: absolute;
+        top: -70px;
+        left: 250px;
+    }
+}
+
+/* Max-width 1280px */
+@media (max-width: 1280px) {
+    .hero-paragraph {
+        font-size: 1.5rem;
+        color: #bbb;
+        padding: 0 100px;
+    }
+
+    .feature-paragraph  {
+        font-size: 1.5rem;
+        padding: 40px 90px;
+        color: #888;
+    }
+
+    .fa-google-play {
+        position: absolute;
+        left: 26.5rem;
+        top: 82.4rem;
+    }
+    
+    .fa-apple   {
+        position: absolute;
+        left: 40.7rem;
+        top: 82.4rem;
+    }
+
+    #service    {
+        background-color: rgb(252, 252, 252);
+        padding: 8% 7%;
+    }
+
+    .bt-title   {
+        font-size: 3rem;
+    }
+
+    .bt-paragraph   {
+        font-size: 1.4rem;
+        font-weight: 500;
+        color: #777;
+    }
+
+    .bitcoin-img    {
+        width: 400px;
+        position: relative;
+        left: 200px;
+        top: -90px;
+    }
+
+    .giftcard-title {
+        font-size: 3rem;
+    }
+
+    .giftcard-paragraph {
+        color: #888;
+        font-size: 1.2rem;
+        padding: 0 250px;
+    }
+
+    .giftcard-btn   {
+        margin-top: 10px;
+        padding: 15px 40px;
+    }
+
+    .partner-title  {
+        color: #888;
+        margin-bottom: 10px;
+    }
+
+    .download-title {
+        padding: 30px 0;
+        font-size: 2rem;
+    }
+
+    .dl-icon-android    {
+        position: absolute;
+        left: 2rem;
+        top: 12.5rem;
+    }
+    
+    .dl-icon-ios    {
+        position: absolute;
+        left: 17rem;
+        top: 12.5rem;
+    }
+
+    .mock-phone {
+        width: 50%;
+        position: absolute;
+        top: -70px;
+        left: 250px;
+    }
+}
+
+/* Max-width 850px */
+@media (max-width: 850px)   {
+
+    .navbar-toggler {
+        color: #fff;
+        font-size: 2rem;
+    }
+
+    .hero-title {
+        font-size: 2.4rem;
+    }
+
+    .hero-paragraph {
+        font-size: 1.2rem;
+        padding: 0;
+    }
+
+    .hero-btn   {
+        margin-top: 10px;
+        padding: 15px 200px;
+    }
+
+    /* Feature section */
+
+    #features   {
+        padding: 0 7%;
+    }
+
+    .feature-title  {
+        font-size: 3rem;
+    }
+
+    .feature-paragraph  {
+        font-size: 1.2rem;
+        padding: 30px 0;
+    }
+
+    .fa-google-play, .fa-apple {
+        font-size: 2.5rem;
+    }
+    
+    .fa-google-play {
+        position: absolute;
+        left: 11.7rem;
+        top: 54rem;
+    }
+    
+    .fa-apple   {
+        position: absolute;
+        left: 26rem;
+        top: 54rem;
+    }
+
+    /* Servie section */
+    #service    {
+        text-align: center;
+    }
+
+    .bt-title   {
+        color: rgb(41, 116, 255);
+        font-size: 3rem;
+    }
+
+    .bitcoin-img    {
+        position: unset;
+    }
+
+    /* Giftcard Section */
+    .giftcard-title {
+        font-size: 2.6rem;
+        margin-top: 0;
+    }
+
+    .giftcard-paragraph {
+        font-size: 1.2rem;
+        padding: 0;
+    }
+
+    /* Download section */
+    #download   {
+        text-align: center;
+    }
+
+    .mock-phone {
+        display: none;
+    }
+
+    .dl-icon-android    {
+        position: absolute;
+        left: 9rem;
+        top: 10rem;
+    }
+    
+    .dl-icon-ios    {
+        position: absolute;
+        left: 23.6rem;
+        top: 10rem;
+    }
+
+    /* Footer section */
+
+    #footer {
+        text-align: center;
+    }
+
+    .social-icons   {
+        font-size: 1.6rem;
+    }
+
+    footer div h3{
+        margin-top: 30px;
+    }
+}
+
+/* Max-width 768px */
+@media (max-width: 768px)   {
+
+
+    .container-fluid    {
+        padding: 5% 10% !important;
+    }
+
+    .hero {
+        margin-top: 10%;
+    }
+
+    /* Feature section */
+    .fa-google-play {
+        position: absolute;
+        left: 10.5rem;
+        top: 55rem;
+    }
+    
+    .fa-apple   {
+        position: absolute;
+        left: 25rem;
+        top: 55rem;
+    }
+
+    /* Download section */
+    #download   {
+        text-align: center;
+    }
+
+    .mock-phone {
+        display: none;
+    }
+
+    .dl-icon-android    {
+        position: absolute;
+        left: 8rem;
+        top: 10rem;
+    }
+    
+    .dl-icon-ios    {
+        position: absolute;
+        left: 23rem;
+        top: 10rem;
+    }
+
+    /* Footer section */
+
+    #footer {
+        text-align: center;
+    }
+
+    .social-icons   {
+        font-size: 1.6rem;
+    }
+
+    footer div h3{
+        margin-top: 30px;
+    }
+}
+
+/* Max-width 420px */
+@media (max-width: 420px)   {
+
+    .container-fluid    {
+        padding: 2% 10% !important;
+        background-image: url(/images/hero-bg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: #fff;
+    }
+
+    .hero {
+        margin-top: 15%;
+    }
+
+    .hero-title {
+        font-size: 1.5rem;
+    }
+
+    .hero-paragraph {
+        font-size: 1rem;
+    }
+
+    .hero-btn   {
+        padding: 10px 50px;
+        font-size: 1rem;
+    }
+
+    /* Feature section */
+    .feature-title{
+        font-size: 1.5rem;
+        margin-top: 10%;
+    }
+
+    .feature-paragraph  {
+        padding: 10px;
+        font-size: 1rem;
+    }
+
+    /* download section */
+    .download-btn-1, .download-btn-2   {
+        padding: 7px 20px 7px 100px;
+        font-size: 1rem;
+        text-align: left;
+        margin: 10px 0;
+        border-radius: 10px;
+    }
+
+    .fa-google-play {
+        position: absolute;
+        left: 7rem;
+        top: 42.6rem;
+    }
+    
+    .fa-apple   {
+        position: absolute;
+        left: 7rem;
+        top: 47.7rem;
+        font-size: 3.5rem;
+    }
+
+    /* Service section */
+    .bt-title   {
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+
+    .bt-paragraph   {
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    .bitcoin-img    {
+        width: 300px;
+        position: unset;
+    }
+
+    /* Giftcard section */
+    .giftcard-title {
+        font-size: 1.5rem;
+    }
+
+    .giftcard-paragraph {
+        font-size: 1rem;
+    }
+
+    /* Download section */
+    #download   {
+        text-align: center;
+    }
+
+    .download-title {
+        font-size: 1.5rem;
+    }
+
+    .mock-phone {
+        display: none;
+    }
+
+    .download-btn-new, .download-btn-new2   {
+        padding: 7px 20px 7px 100px;
+        font-size: 1rem;
+        text-align: left;
+        margin: 10px;
+        border-radius: 10px;
+    }
+
+    .dl-icon-android    {
+        position: absolute;
+        left: 6.5rem;
+        top: 11.2rem;
+    }
+    
+    .dl-icon-ios    {
+        position: absolute;
+        left: 6.5rem;
+        top: 16.2rem;
+    }
+
+    #subscribe h1   {
+        font-size: 1.5rem;
+    }
+
+    .sub-paragraph  {
+        font-size: 1rem;
+    }
+
+    #subscribe  input {
+        padding: 15px 10px 15px 30px;
+        margin: 20px auto;
+        text-align: left;
+        display: block;
+        font-size: 1.3rem;
+        border-radius: 5px;
+        border: none;
+        background-color: #eee;
+    }
+    
+    #subscribe button{
+        padding: 10px 126px;
+        font-size: 1.5rem;
+        border-radius: 5px;
+    }
+
+    /* Footer section */
+
+    #footer {
+        text-align: center;
+    }
+
+    .social-icons   {
+        font-size: 1.6rem;
+    }
+
+    footer div h3{
+        margin-top: 30px;
+    }
+}
+
+/* Max-width 380px */
+@media (max-width: 380px) {
+    .hero-title {
+        font-size: 1rem;
+    }
+
+    .hero-paragraph {
+        font-size: 0.8rem;
+    }
+
+    /* Features Section */
+    .feature-paragraph  {
+        font-size: 0.8rem;
+    }
+
+    .fa-google-play {
+        position: absolute;
+        left: 6rem;
+        top: 37rem;
+    }
+    
+    .fa-apple   {
+        position: absolute;
+        left: 6rem;
+        top: 42.2rem;
+        font-size: 3.5rem;
+    }
+
+    /* Giftcard section */
+    .gift-cards {
+        padding-top: 5%;
+    }
+
+    .giftcard-paragraph {
+        font-size: 0.8rem;
+        color: #000;
+    }
+
+    .giftcard-btn   {
+        padding: 13px 20px;
+        font-size: 0.8rem;
+        color: #fff;
+        background-color: rgb(50, 139, 255);
+        border: none;
+    }
+
+    .download-title {
+        font-size: 1rem;
+    }
+
+    .dl-icon-android    {
+        position: absolute;
+        left: 6rem;
+        top: 8.4rem;
+    }
+    
+    .dl-icon-ios    {
+        position: absolute;
+        left: 6rem;
+        top: 13.2rem;
+    }
+
+    #subscribe input[type=email]{
+        width: 320px;
+        padding-left: 20px;
+    }
+    
+    #subscribe button{
+        padding: 10px 107px;
+        font-size: 1.5rem;
+        border-radius: 5px;
+    }
+
+}
+
+/* Max-width 365px */
+@media (max-width: 365px) {
+    .navbar-toggler {
+        font-size: 1.5rem;
+    }
+
+    /* features section */
+    .fa-google-play {
+        position: absolute;
+        left: 6rem;
+        top: 39rem;
+    }
+    
+    .fa-apple   {
+        position: absolute;
+        left: 6rem;
+        top: 44rem;
+        font-size: 3.5rem;
+    }
+
+    .dl-icon-android    {
+        position: absolute;
+        left: 5rem;
+        top: 8rem;
+    }
+    
+    .dl-icon-ios    {
+        position: absolute;
+        left: 5rem;
+        top: 13.2rem;
+    }
+
+    #subscribe input[type=email]{
+        width: 310px;
+        padding-left: 20px;
+    }
+
+    #subscribe button{
+        padding: 10px 102px;
+        font-size: 1.5rem;
+        border-radius: 5px;
+    }
+}
+
+/* Max-width 320px */
+@media (max-width: 320px) {
+    .fa-google-play {
+        position: absolute;
+        left: 5rem;
+        top: 38rem;
+    }
+    
+    .fa-apple   {
+        position: absolute;
+        left: 5rem;
+        top: 43rem;
+        font-size: 3.5rem;
+    }
+
+    .dl-icon-android    {
+        position: absolute;
+        left: 4rem;
+        top: 9.5rem;
+    }
+    
+    .dl-icon-ios    {
+        position: absolute;
+        left: 4rem;
+        top: 14.5rem;
+    }
+
+    #subscribe input[type=email]{
+        width: 265px;
+        padding-left: 20px;
+    }
+
+    #subscribe button{
+        padding: 10px 80px;
+        font-size: 1.5rem;
+        border-radius: 5px;
+    }
+
+    .bitcoin-img    {
+        width: 250px;
+        position: unset;
+    }
+}
