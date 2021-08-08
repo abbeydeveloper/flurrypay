@@ -1,0 +1,361 @@
+*   {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+body    {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container-fluid    {
+    padding: 2% 10% !important;
+    background-image: url(/images/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: #fff;
+}
+
+/* Navbar Header */
+
+.navbar-nav {
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.nav-item   {
+    padding: 0 5%;
+}
+
+.nav-item a{
+    color: rgb(255, 255, 255);
+}
+
+.nav-item a:hover{
+    color: rgb(41, 116, 255);
+}
+
+.nav-btn    {
+    margin-left: 100px;
+    padding: 10px 20px;
+}
+
+/* Hero Section */
+.hero   {
+    margin: 21.8% auto;
+    text-align: center;
+}
+
+.hero-title {
+    font-size: 4rem;
+    margin: 2%;
+}
+
+.color-text {
+    color: rgb(41, 116, 255);
+}
+
+.hero-paragraph {
+    font-size: 1.5rem;
+    color: #bbb;
+    padding: 0 300px;
+}
+
+.hero-btn   {
+    margin-top: 60px;
+    padding: 20px 400px;
+}
+
+
+/* Feature Section */
+#features   {
+    padding: 5% 7%;
+    text-align: center;
+}
+
+.feature-title  {
+    font-size: 4rem;
+    color: rgb(41, 116, 255);
+}
+
+.feature-paragraph  {
+    font-size: 1.5rem;
+    padding: 20px 200px;
+    color: #888;
+}
+
+.download-btn-1, .download-btn-2   {
+    padding: 7px 20px 7px 70px;
+    font-size: 1rem;
+    text-align: left;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.download-btn-1 {
+    background-color: #111;
+    color: #fff;
+
+}
+
+.download-btn-1:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 1px solid #111;
+}
+
+.download-btn-2 {
+    background-color: rgb(253, 253, 253);
+    color: rgb(0, 0, 0);
+    border: 1px solid #111;
+}
+
+.download-btn-2:hover {
+    background-color: #111;
+    color: #fff;
+}
+
+.fa-google-play, .fa-apple {
+    font-size: 2.5rem;
+    
+}
+
+.fa-google-play {
+    position: absolute;
+    left: 46rem;
+    top: 90.9rem;
+}
+
+.fa-apple   {
+    position: absolute;
+    left: 60.6rem;
+    top: 90.9rem;
+}
+
+
+.playstore, .appstore   {
+    display: block;
+    font-size: 1.7rem;
+    margin-top: -10px;
+}
+
+
+/* Service Section */
+#service    {
+    background-color: rgb(252, 252, 252);
+    padding: 8% 12%;
+}
+
+.bt-title   {
+    color: rgb(41, 116, 255);
+    font-size: 6rem;
+    font-weight: 900;
+}
+
+.bt-paragraph   {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #777;
+}
+
+.bitcoin-img    {
+    position: relative;
+    left: 300px;
+    top: -90px;
+}
+
+/* Giftcard Section */
+#gift-card  {
+    text-align: center;
+    background-image: url(/images/giftcard-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 6% 7%;
+}
+
+.giftcard-title {
+    font-size: 5rem;
+    color: rgb(41, 116, 255);
+}
+
+.giftcard-paragraph {
+    color: #888;
+    font-size: 1.5rem;
+    padding: 0 450px;
+}
+
+.giftcard-btn   {
+    margin-top: 30px;
+    padding: 15px 40px;
+}
+
+/* Partners */
+
+/* #partners   {
+    padding: 5% 7%;
+    text-align: center;
+}
+
+.partner-title  {
+    color: #888;
+    margin-bottom: 50px;
+}
+
+.partner-logo   {
+    width: 100%;
+}
+
+.partner-logo img:first-child  {
+    width: 200px;
+    padding: 50px;
+}
+
+.partner-logo img  {
+    width: 300px;
+    padding: 50px;
+} */
+
+
+/* Download Section */
+#download   {
+    padding: 5% 7%;
+    background-image: url(/images/download-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 6% 7%;
+    position: relative;
+}
+
+.download-title {
+    padding: 30px 0;
+    font-size: 4rem;
+}
+
+.download-btn-new, .download-btn-new2   {
+    padding: 7px 20px 7px 70px;
+    font-size: 1rem;
+    text-align: left;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.download-btn-new   {
+    background-color: #111;
+    color: #fff;
+}
+
+.dl-icon-android    {
+    position: absolute;
+    left: 2rem;
+    top: 24.6rem;
+}
+
+.dl-icon-ios    {
+    position: absolute;
+    left: 17rem;
+    top: 24.6rem;
+}
+
+.mock-phone {
+    width: 60%;
+    position: absolute;
+    top: -100px;
+    left: 450px;
+}
+
+/* Subscribe Section */
+
+#subscribe  {
+    padding: 10% 7%;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    z-index: 3;
+    position: relative;
+}
+
+#subscribe h1   {
+    font-size: 3rem;
+    padding: 10px 0;
+}
+
+.sub-paragraph  {
+    font-size: 1.3rem;
+    color: #888;
+    margin-bottom: 50px;
+}
+
+#subscribe  input {
+    padding: 20px 270px 20px 30px;
+    margin: 20px auto;
+    text-align: left;
+    display: block;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #eee;
+}
+
+#subscribe button{
+    padding: 15px 255px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+}
+
+
+/* Footer Section */
+#footer {
+    background-color: #eee;
+    padding: 5% 7% 2%;
+}
+
+footer div img{
+    margin-bottom: 40px;
+}
+
+.foot-text  {
+    margin-top: 20px;
+    padding: 0 50px 0 0;
+    font-size: 1.1rem;
+    color: #888;
+}
+
+.address, .phone-num, .email    {
+    color: #888;
+}
+
+footer div h3{
+    margin-bottom: 30px;
+}
+
+footer div li{
+    margin-bottom: 10px;
+}
+
+footer div li a{
+    color: #888;
+}
+
+footer div li a:hover{
+    color: rgb(41, 116, 255);
+    text-decoration: none;
+}
+
+.social-icons   {
+    padding: 10px;
+}
+
+.copyright  {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+
+/* Nabar Toggler Icon */
+
+.navbar-toggler {
+    color: #fff;
+}
